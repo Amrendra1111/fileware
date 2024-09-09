@@ -51,58 +51,47 @@ fileware
 13. Terraform Vpc                       (fileware terraform-vpc-template)
 
 
-Fetching and Editing Templates:
+**Fetching and Editing Templates Example:**
+
 To fetch and edit a template, use one of the following commands:
 
 **Ansible Template**:
 
-Fetch and edit an Ansible playbook template.
 fileware ansible-template
 
 **Kubernetes Deployment Template**:
 
-Fetch and edit a Kubernetes deployment YAML file.
-
 fileware k8s-deployment-template
 
 **Kubernetes Configmap Template**:
-Fetch and edit a Kubernetes configmap YAML file.
 
 fileware k8s-configmap-template
 
 **Kubernetes Secret Template**:
 
-Fetch and edit a Kubernetes secret YAML file.
-
 fileware k8s-secret-template
 
 **Kubernetes Service Template**:
-Fetch and edit a Kubernetes service YAML file.
+
 fileware k8s-service-template
 
-**Docker Compose Template**:
-Fetch and edit a Docker Compose YAML file.
-fileware docker-compose-template
+**Terraform S3Template**:
 
-**Docker Compose Build Template**:
-Fetch and edit a Docker Compose YAML file.
-fileware docker-compose-build-template
-
-CI Pipeline Template:
-Fetch and edit a CI pipeline YAML file.
-fileware ci-pipeline-template
-
-**Terraform Template**:
-Fetch and edit a Terraform configuration file.
 fileware terraform-template
+
+and so on....
+
 
 **Once the template is fetched, it will be opened in nano. If you edit and save the file, it will be stored in your current working directory.**
 
 **NOTE** Make sure to rename the file after editing or else the file will not be saved.
 
 **Removing Fileware**:
+
 If you wish to uninstall Fileware, you can do so with the following command:
-sudo apt remove fileware
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@sudo apt remove fileware   @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 **Contributing**:
 Contributions to Fileware are welcome! To contribute:
@@ -110,10 +99,15 @@ Fork the repository.
 Create a new branch for your feature.
 Make your changes.
 Submit a pull request.
+
 **License**:
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 **Support**:
+
 If you encounter any issues or have any feature requests, please create an issue in this repository or reach out via email.
+
 **Email**:
+
 amrendra1111singh@gmail.com
