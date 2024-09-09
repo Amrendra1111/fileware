@@ -60,15 +60,20 @@ Fetch and edit an Ansible playbook template.
 fileware ansible-template
 
 **Kubernetes Deployment Template**:
+
 Fetch and edit a Kubernetes deployment YAML file.
+
 fileware k8s-deployment-template
 
 **Kubernetes Configmap Template**:
 Fetch and edit a Kubernetes configmap YAML file.
+
 fileware k8s-configmap-template
 
 **Kubernetes Secret Template**:
+
 Fetch and edit a Kubernetes secret YAML file.
+
 fileware k8s-secret-template
 
 **Kubernetes Service Template**:
