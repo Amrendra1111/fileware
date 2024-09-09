@@ -12,7 +12,7 @@
   - Terraform
 - Easily fetch templates from GitHub.
 - Edit templates directly in the terminal using `nano`.
-- Save modified templates to the current working directory.
+- Saves modified templates to the current working directory(By-Default).
 - Avoid clutter: files are only saved if modified.
   
 ## Installation
@@ -55,6 +55,7 @@ Fetching and Editing Templates:
 To fetch and edit a template, use one of the following commands:
 
 **Ansible Template**:
+
 Fetch and edit an Ansible playbook template.
 fileware ansible-template
 
