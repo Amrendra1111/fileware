@@ -35,7 +35,7 @@ You should see a list of available commands.
 To get started with Fileware, open your terminal and type "fileware". This will show you the available commands and templates:
 fileware
 
-**Available templates	                                     Commands**
+**Available templates	and                           Commands**
 1.  Ansible                             (fileware ansible-template)
 2.  Kubernetes Deployment               (fileware k8s-deployment-template)
 3.  Kubernetes Service                  (fileware k8s-service-template)
@@ -89,15 +89,20 @@ and so on....
 **Removing Fileware**:
 
 If you wish to uninstall Fileware, you can do so with the following command:
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@sudo apt remove fileware   @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+sudo apt remove fileware
+
 
 **Contributing**:
+
 Contributions to Fileware are welcome! To contribute:
+
 Fork the repository.
+
 Create a new branch for your feature.
+
 Make your changes.
+
 Submit a pull request.
 
 **License**:
