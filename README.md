@@ -34,15 +34,20 @@ You should see a list of available commands.
 4. **Usage**
 To get started with Fileware, open your terminal and type "fileware". This will show you the available commands and templates:
 fileware
-Available templates:         Commands
-1. Ansible                (fileware ansible-template)
-2. Kubernetes Deployment  (fileware k8s-deployment-template)
-3. Kubernetes Service     (fileware k8s-service-template)
-4. Kubernetes Configmap   (fileware k8s-configmap-template)
-5. Kubernetes Secret      (fileware k8s-secret-template)
-6. Docker Compose         (fileware docker-compose-template)
-7. Docker Compose Build   (fileware docker-compose-build-template)
-8. Terraform              (fileware terraform-template)
+Available templates                           Commands
+1.  Ansible                             (fileware ansible-template)
+2.  Kubernetes Deployment               (fileware k8s-deployment-template)
+3.  Kubernetes Service                  (fileware k8s-service-template)
+4.  Kubernetes Configmap                (fileware k8s-configmap-template)
+5.  Kubernetes Secret                   (fileware k8s-secret-template)
+6.  Docker Compose                      (fileware docker-compose-template)
+7.  Docker Compose Build                (fileware docker-compose-build-template)
+8.  Terraform S3                        (fileware terraform-s3-template)
+9.  Terraform Ec2                       (fileware terraform-ec2-template)
+10. Terraform Iam                       (fileware terraform-iam-template)
+11. Terraform Security Group            (fileware terraform-sg-template)
+12. Terraform Subnet                    (fileware terraform-subnet-template)
+13. Terraform Vpc                       (fileware terraform-vpc-template)
 
 Fetching and Editing Templates:
 To fetch and edit a template, use one of the following commands:
